@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регестрация</title>
+  <style>
+    *{font-family: "Times New Roman"; font-size: 20px}
+    p{text-indent: 30px}
+    h1{text-align: center; font-size: 35px}
+    .list:link{color: blue;}
+    .list:visited{color: purple}
+    .list:hover{color: grey;}
+    .list:active{color: red}
+  </style>
+</head>
+<body>
+<p>ООО "Русский дар" <img src="../logo.jpg" height="70" width="70"></p>
+<h1>Регистрация.</h1>
+<p><a href="../index.html">Вернутся на главную страницу</a></p>
+<form action="mailto: nugumanov.timur.51207@gmail.ru" method="post">
+<table>
+  <tr><td>Имя пользователя</td><td><input type="text" name="Name" id="Name" size="40"></td></tr>
+  <tr><td>Логин</td><td><input type="password" name="login" id="login" size="40"></td></tr>
+  <tr><td>Пароль</td><td><input type="password" name="password" id="password" size="40"></td></tr>
+  <tr><td>Повтор пароль</td><td><input type="password" name="password2" id="password2" size="40"></td></tr>
+  <tr><td>Электронная почта</td><td><input type="text" name="email" id="emaillogin" size="40"></td></tr>
+</table>
+<p><input type="checkbox" name="prover" id="prover"> Я согласен на обработку персональны данных</p>
+  <input type="submit" name="otpr" id="otpr" value="Зарегестрироваться"> <input type="reset" name="res" id="res" value="Очистить">
+</form>
+</body>
+</html>
